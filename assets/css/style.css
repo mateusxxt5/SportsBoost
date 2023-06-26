@@ -160,3 +160,7 @@ footer {
     padding: 1.5rem;
     font-weight: 100;
 }
+
+.listas li{
+    padding-bottom: 10px;
+}
