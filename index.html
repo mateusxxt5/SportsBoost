@@ -9,29 +9,48 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../assets/css/style.css">
+    
 </head>
 
 <body>
     <header>
         <nav class="nav-bar">
             <div class="logo" id="nav-bar">
-                <h1>SportsBoost</h1>
+                <h1>SportsBoost</h1> 
             </div>
-
+            
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">xxxxxx</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">xxxxxx</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">xxxxxx</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">xxxxxx</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">xxxxxx</a></li>
+                    <li class="nav-item"><a href="#cap1" class="nav-link">Por que criamos o site</a></li>
+                    <li class="nav-item"><a href="#cap2" class="nav-link">Por que praticar esportes</a></li>
+                    <li class="nav-item"><a href="#cap3" class="nav-link">Saúde Mental</a></li>
+                    <li class="nav-item"><a href="#cap4" class="nav-link">Malefícios do Sendentarismo</a></li>
+                    <li class="nav-item"><a href="#cap5" class="nav-link">Onde Praticar esportes em JF</a></li>
+                    <li class="nav-item"><a href="#cap6" class="nav-link">Exercícios para fazer em casa</a></li>
                 </ul>
             </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./assets/images/menu_white_36dp.svg"></button>
+              </div>
         </nav>
+
+        <div class="mobile-menu">
+            <ul>
+              <li class="nav-item"><a href="#sobre-mim-navbar" class="nav-link">Sobre Mim</a></li>
+              <li class="nav-item"><a href="#formação-navbar" class="nav-link">Formação</a></li>
+              <li class="nav-item"><a href="#atuação-navbar" class="nav-link">Atuação Proficional</a></li>
+              <li class="nav-item"><a href="#portifolio-navbar" class="nav-link">Portifólio</a></li>
+              <li class="nav-item"><a href="#contato-navbar" class="nav-link">Contatos</a></li>
+            </ul>
+          </div>
+        <div class="container text-center">
+            <button class="btn-primary" onclick="toggleDarkMode()">Dark Mode</button>
+        </div>
     </header>
 
-    <div style="margin: 10px 300px;">
-        <h1>POR QUE CRIAMOS O SITE?</h1>
+    <div class="box-text">
+        <h1 id="cap1">POR QUE CRIAMOS O SITE? - <a href="#">Voltar</a></h1>
         <p>Criamos este site pois, com o avanço da tecnologia trouxe uma série de comodidades que tornam a vida mais
             conveniente, mas também contribuem para o sedentarismo. A proliferação de dispositivos eletrônicos, como
             smartphones, tablets e computadores, bem como o aumento do acesso à internet, levou a um estilo de vida mais
@@ -56,88 +75,88 @@
         </div>
     </div>
 
-    <div style="margin: 10px 300px;">
-        <h1 style="text-align: center;">POR QUE PRATICAR ESPORTES?</h1>
+    <div class="box-text">
+        <h1 style="text-align: center;" id="cap2">POR QUE PRATICAR ESPORTES? - <a href="#">Voltar</a></h1>
         <h4 style="text-align: center;">A importância de praticar atividade fisca e seus beneficios.</h4>
         <p>A prática regular de atividade física é de extrema importância para a saúde e o bem-estar geral. Aqui estão
             alguns dos principais benefícios e importância de praticar atividade física:</p>
-        <ol class="listas" style="margin: 30px;">
+        <ol class="listas" >
             <li>
-                Saúde cardiovascular: A atividade física regular ajuda a fortalecer o coração, melhorar a circulação
+                <b>Saúde cardiovascular:</b> A atividade física regular ajuda a fortalecer o coração, melhorar a circulação
                 sanguínea e reduzir o risco de doenças cardiovasculares, como doenças cardíacas e acidentes vasculares
                 cerebrais (AVCs).
             </li>
 
             <li>
-                Controle de peso: A atividade física desempenha um papel fundamental no controle do peso corporal. Ao se
+                <b>Controle de peso:</b> A atividade física desempenha um papel fundamental no controle do peso corporal. Ao se
                 engajar em exercícios regulares, você queima calorias, aumenta o metabolismo e ajuda a manter um peso
                 saudável. Além disso, a atividade física também pode ajudar a prevenir o ganho excessivo de peso e a
                 combater a obesidade.
             </li>
 
             <li>
-                Saúde mental e emocional: A prática regular de atividade física está associada a benefícios
+                <b>Saúde mental e emocional:</b> A prática regular de atividade física está associada a benefícios
                 significativos para a saúde mental e emocional. Ela pode ajudar a reduzir o estresse, a ansiedade e a
                 depressão, melhorar o humor, aumentar a autoestima e promover uma sensação geral de bem-estar. A
                 atividade física libera endorfinas, substâncias químicas que geram sensações de prazer e felicidade.
             </li>
 
             <li>
-                Saúde óssea e muscular: A atividade física, especialmente exercícios de resistência e levantamento de
+                <b>Saúde óssea e muscular:</b> A atividade física, especialmente exercícios de resistência e levantamento de
                 peso, fortalece os ossos e os músculos. Isso é particularmente importante para prevenir a osteoporose e
                 a perda de massa muscular, que são problemas comuns à medida que envelhecemos.
             </li>
 
             <li>
-                Controle de doenças crônicas: A atividade física regular pode ajudar a prevenir e controlar várias
+                <b>Controle de doenças crônicas:</b> A atividade física regular pode ajudar a prevenir e controlar várias
                 doenças crônicas, como diabetes tipo 2, hipertensão arterial, colesterol alto e certos tipos de câncer.
                 Ela melhora a sensibilidade à insulina, regula os níveis de açúcar no sangue, reduz a pressão arterial e
                 melhora a função imunológica.
             </li>
 
             <li>
-                Qualidade do sono: A atividade física regular promove um sono melhor e mais reparador. Ela ajuda a
+                <b>Qualidade do sono:</b> A atividade física regular promove um sono melhor e mais reparador. Ela ajuda a
                 regular os ritmos circadianos, reduz o estresse e a ansiedade, e pode aliviar problemas de sono, como
                 insônia.
             </li>
 
             <li>
-                Desenvolvimento cognitivo: Estudos mostram que a atividade física regular está associada a um melhor
+                <b>Desenvolvimento cognitivo:</b> Estudos mostram que a atividade física regular está associada a um melhor
                 desempenho cognitivo, melhor atenção, concentração e memória. Ela também estimula o crescimento de novas
                 células cerebrais e fortalece as conexões neuronais.
             </li>
         </ol>
     </div>
 
-    <div style="margin: 10px 300px;">
-        <h1>SAÚDE MENTAL</h1>
+    <div class="box-text">
+        <h1 id="cap3">SAÚDE MENTAL - <a href="#">Voltar</a></h1>
         <h4>como a atividade física pode ajudar na depressão e ansiedade.</h4>
         <p>A atividade física regular pode desempenhar um papel importante no alívio dos sintomas da depressão e da
             ansiedade. Aqui estão algumas maneiras pelas quais a atividade física pode ajudar:
         </p>
-        <ol>
-            <li>Liberação de endorfinas: Durante o exercício, o corpo libera endorfinas, neurotransmissores conhecidos
+        <ol class="listas">
+            <li><b>Liberação de endorfinas:</b> Durante o exercício, o corpo libera endorfinas, neurotransmissores conhecidos
                 como "hormônios da felicidade". Essas substâncias químicas naturais têm um efeito analgésico e podem
                 melhorar o humor, promovendo uma sensação de bem-estar e euforia. Essa liberação de endorfinas pode
                 ajudar a reduzir os sintomas da depressão e da ansiedade.</li>
 
-            <li>Redução do estresse: A atividade física é uma forma eficaz de lidar com o estresse. Durante o exercício,
+            <li><b>Redução do estresse:</b> A atividade física é uma forma eficaz de lidar com o estresse. Durante o exercício,
                 você concentra sua energia em uma atividade física específica, o que pode ajudar a aliviar a tensão e a
                 ansiedade acumuladas. Além disso, a atividade física regular pode reduzir a produção de hormônios do
                 estresse, como o cortisol, e aumentar a sensibilidade dos receptores de serotonina no cérebro,
                 contribuindo para a regulação do humor.</li>
 
-            <li>Melhora do sono: A depressão e a ansiedade podem estar associadas a distúrbios do sono, como insônia e
+            <li><b>Melhora do sono:</b> A depressão e a ansiedade podem estar associadas a distúrbios do sono, como insônia e
                 sono fragmentado. A atividade física regular ajuda a melhorar a qualidade do sono, promovendo um sono
                 mais profundo e reparador. Um sono adequado está diretamente relacionado ao equilíbrio emocional e à
                 saúde mental.</li>
 
-            <li>Aumento da autoestima: A prática de exercícios físicos regularmente pode melhorar a autoestima e a
+            <li><b>Aumento da autoestima:</b> A prática de exercícios físicos regularmente pode melhorar a autoestima e a
                 autoconfiança. O sentimento de realização pessoal ao superar desafios físicos e alcançar metas
                 estabelecidas promove uma imagem positiva de si mesmo, o que pode ser especialmente benéfico para
                 pessoas que lutam contra a depressão e a ansiedade.</li>
 
-            <li>Oportunidades sociais: Participar de atividades físicas em grupo ou em equipes esportivas pode fornecer
+            <li><b>Oportunidades sociais:</b> Participar de atividades físicas em grupo ou em equipes esportivas pode fornecer
                 oportunidades sociais e interação social significativas. O apoio social, a sensação de pertencimento e a
                 conexão com outras pessoas podem ajudar a reduzir o isolamento social e a solidão, que são comuns em
                 pessoas com depressão e ansiedade.</li>
@@ -155,16 +174,16 @@
         </div>
     </div>
 
-    <div style="margin: 10px 300px;">
-        <h1>MALEFÍCIOS DO SEDENTARISMO</h1>
+    <div class="box-text">
+        <h1 id="cap4">MALEFÍCIOS DO SEDENTARISMO - <a href="#">Voltar</a></h1>
         <p>
             O sedentarismo, ou seja, a falta de atividade física regular, está associado a uma série de malefícios para
             a saúde. Aqui estão alguns dos principais efeitos negativos do sedentarismo:
         </p>
 
-        <ol>
+        <ol class="listas">
             <li>
-                Aumento do risco de doenças cardiovasculares: A falta de atividade física regular é um fator de risco
+                <b>Aumento do risco de doenças cardiovasculares:</b> A falta de atividade física regular é um fator de risco
                 significativo para o desenvolvimento de doenças cardiovasculares, como doenças cardíacas, hipertensão
                 arterial, acidentes vasculares cerebrais (AVCs) e doença arterial coronariana. A atividade física
                 regular fortalece o coração, melhora a circulação sanguínea e reduz os níveis de colesterol, ajudando a
@@ -172,7 +191,7 @@
             </li>
 
             <li>
-                Maior risco de obesidade: O sedentarismo é um fator importante no ganho de peso e no desenvolvimento da
+                <b>Maior risco de obesidade:</b> O sedentarismo é um fator importante no ganho de peso e no desenvolvimento da
                 obesidade. A falta de atividade física reduz o gasto calórico, o que pode levar a um desequilíbrio
                 energético e ao acúmulo de gordura corporal. A obesidade está associada a uma série de problemas de
                 saúde, incluindo diabetes tipo 2, doenças cardiovasculares, distúrbios musculoesqueléticos e certos
@@ -180,34 +199,34 @@
             </li>
 
             <li>
-                Aumento do risco de diabetes tipo 2: O sedentarismo é um fator de risco significativo para o
+                <b>Aumento do risco de diabetes tipo 2:</b> O sedentarismo é um fator de risco significativo para o
                 desenvolvimento de diabetes tipo 2. A atividade física regular ajuda a melhorar a sensibilidade à
                 insulina e a regular os níveis de açúcar no sangue. A falta de atividade física está associada a
                 resistência à insulina e ao desenvolvimento de diabetes tipo 2.
             </li>
 
             <li>
-                Perda de massa muscular e força: A falta de atividade física regular contribui para a perda de massa
+                <b>Perda de massa muscular e força:</b> A falta de atividade física regular contribui para a perda de massa
                 muscular e força. Isso pode levar à diminuição da funcionalidade física, perda de equilíbrio, maior
                 risco de quedas e incapacidade para realizar atividades cotidianas com facilidade.
             </li>
 
             <li>
-                Aumento do risco de problemas musculoesqueléticos: O sedentarismo pode levar ao enfraquecimento dos
+                <b>Aumento do risco de problemas musculoesqueléticos:</b> O sedentarismo pode levar ao enfraquecimento dos
                 músculos e dos ossos, aumentando o risco de lesões e problemas musculoesqueléticos, como osteoporose,
                 osteoartrite e dor lombar crônica. A atividade física regular fortalece os músculos, aumenta a densidade
                 óssea e melhora a flexibilidade e a postura, ajudando a prevenir esses problemas.
             </li>
 
             <li>
-                Prejuízos para a saúde mental: O sedentarismo também pode ter efeitos negativos na saúde mental. A falta
+                <b>Prejuízos para a saúde mental:</b> O sedentarismo também pode ter efeitos negativos na saúde mental. A falta
                 de atividade física regular está associada a um maior risco de desenvolver ansiedade, depressão e outros
                 distúrbios mentais. A atividade física ajuda a liberar endorfinas e outros neurotransmissores que
                 promovem o bem-estar mental e emocional.
             </li>
 
             <li>
-                Redução da expectativa de vida: Estudos mostram que o sedentarismo está associado a um aumento do risco
+                <b>Redução da expectativa de vida:</b> Estudos mostram que o sedentarismo está associado a um aumento do risco
                 de mortalidade precoce. A falta de atividade física regular está relacionada a uma maior probabilidade
                 de desenvolver doenças crônicas e outras condições de saúde que podem encurtar a expectativa de vida.
             </li>
@@ -220,40 +239,74 @@
             houver condições de saúde pré-existentes.</p>
     </div>
 
-    <div style="margin: 10px 300px;">
-        <h1>AONDE PRATICAR ESPORTES EM JF?</h1>
+    <div class="box-text">
+        <h1 id="cap5">ONDE PRATICAR ESPORTES EM JF? - <a href="#">Voltar</a></h1>
+        <p>Para você o que é mais difícil quando se fala em atividade física? É comum ouvirmos algumas barreiras como tempo, horário, falta de dinheiro ou de espaço para a prática. Mas a gente bem sabe que boa parte desses questionamentos são apenas “desculpas” para não iniciar.
+
+            A dica é nada de desânimo! A hora é essa! E para ajudar a eliminar esses questionamentos, fizemos uma lista com bons lugares para praticar atividade física em Juiz de Fora. E De graça! Vamos começar?
+            
+            Campus da UFJF
+            Com uma pista de 2,2 quilômetros, aparelhos de ginástica e espaço de sobra para usufruto comunitário, o campus da Universidade Federal de Juiz de Fora (UFJF) é um ótimo lugar para a prática de atividade física. O percurso conta com subidas e descidas e uma paisagem com muito verde. E para quem preferir, há espaços também para os ciclistas, inclusive com disponibilidade de bicicletas no próprio local.
+            
+             
+            
+            Via São Pedro
+            Os moradores da cidade alta conhecem bem essa opção. A via São Pedro coincide com parte da BR-440 e tem sido utilizada por muitas pessoas como espaço para esporte e lazer. As corridas e caminhadas são os destaques. O percurso completo pode ultrapassar os 3 Km e conta também com trechos de subidas. Para quem ainda não conhece, a via fica entre a Rua Roberto Stiegert e o trevo de acesso ao condomínio Spinaville.
+            
+            Museu Mariano Procópio
+            O parque do Museu Mariano Procópio é mais que um espaço cultural. Com muitas árvores, o que ajuda a refrescar o ambiente. O local é ótimo para a prática de corrida, caminhada ou até mesmo para atividades coletivas. E lógico, há sempre as opções de ainda visitar o museu ou tirar belas fotos no local. Então, anota aí o endereço: Rua Mariano Procópio, 1.100, bairro Mariano Procópio.
+            
+            Parque da Lajinha
+            O Parque da Lajinha é repleto de verde, com zonas de sombras, e a vista do lago é compensadora. Além disso, o parque tem gramados de sobra para outras atividades. É possível praticar yoga, treinos, atividades físicas coletivas e outros. O parque da Laginha fica na Avenida Paulo Japiassú Coelho, s/n, Teixeiras.
+            
+            A Avenida Brasil
+            A clássica “orla” de Juiz de Fora. Na região central, às margens do Rio Paraibuna, a Avenida Brasil é uma opção de caminhada e corrida em Juiz de Fora. E dá para fazer um percurso de peso nos cerca de 10 quilômetros de pista. Fazer o percurso de bicicleta também é uma boa alternativa. E em alguns pontos há pequenas estruturas de ferro onde os atletas podem fazer barras ou abdominais.
+            
+             
+            
+            Praça CEU
+            
+            A galera da ZN conhece bem este lugar. Referência de cidadania e cultura na Zona Norte de Juiz de Fora, a Praça CEU é palco de oficinas e também de atividades físicas.
+            </p>
     </div>
 
 
-    <div style="margin: 10px 300px;">
-        <h1>EXERCÍCIOS PARA FAZER EM CASA</h1>
+    <div class="box-text">
+        <h1 id="cap6">EXERCÍCIOS PARA FAZER EM CASA - <a href="#">Voltar</a></h1>
         <h4>Caso você prefira começar a se exercitar em casa esse video mostrará alguns exercícios que podem ser feitos
             em casa.</h4>
 
         <p>Deixarei algumas dicas e um video para te aujdar com isso!</p>
 
-        <p>Escolha atividades que você goste: Opte por atividades físicas que sejam do seu agrado. Isso aumenta a
+        <p><b>Escolha atividades que você goste:</b> Opte por atividades físicas que sejam do seu agrado. Isso aumenta a
             probabilidade de você se manter motivado e continuar praticando regularmente. Pode ser dança, ioga,
-            treinamento funcional, exercícios aeróbicos, treinos de força, entre outros.</p>
-        <p>Comece com exercícios básicos: Se você é iniciante, comece com exercícios simples e progressivamente aumente
+            treinamento funcional, exercícios aeróbicos, treinos de força, entre outros.</p> <br>
+        <p><b>Comece com exercícios básicos:</b> Se você é iniciante, comece com exercícios simples e progressivamente aumente
             a intensidade. Agachamentos, flexões, pranchas, polichinelos e alongamentos são alguns exemplos de
             exercícios que podem ser feitos em casa, com pouco ou nenhum equipamento.
 
-        </p>
+        </p><br>
 
-        <p>Estabeleça uma rotina: Defina horários regulares para se exercitar em casa e tente cumpri-los. Ter uma rotina
+        <p><b>Estabeleça uma rotina:</b> Defina horários regulares para se exercitar em casa e tente cumpri-los. Ter uma rotina
             estabelecida facilita a incorporação dos exercícios na sua agenda e torna mais provável que você se mantenha
-            consistente.</p>
+            consistente.</p><br>
 
-        <p>Varie os exercícios: Para evitar o tédio e manter-se motivado, experimente diferentes tipos de exercícios e
+        <p><b>Varie os exercícios:</b> Para evitar o tédio e manter-se motivado, experimente diferentes tipos de exercícios e
             varie a sua rotina. Alterne entre treinos de força, exercícios aeróbicos, treinos de flexibilidade e outros
-            tipos de atividades físicas para trabalhar diferentes grupos musculares e obter benefícios diversos.</p>
+            tipos de atividades físicas para trabalhar diferentes grupos musculares e obter benefícios diversos.</p><br>
         <p>Lembre-se de ouvir o seu corpo e respeitar os limites individuais. Se sentir qualquer desconforto ou dor
-            durante o exercício, pare imediatamente e consulte um profissional de saúde.</p>
-        <div style="padding: 10px 140px;">
+            durante o exercício, pare imediatamente e consulte um profissional de saúde.</p><br>
+        <div>
             <iframe src="https://www.youtube.com/embed/J32bEKmnBaw" height="300px" width="420px"></iframe>
         </div>
     </div>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+
     <footer>
         <div id="footer_content">
             <div id="footer_contacts">
@@ -277,16 +330,21 @@
 
             <ul class="footer-list">
                 <li id="footer-list0">
-                    <h3>Contados</h3>
+                    <h3>Nomes :</h3>
                 </li>
 
                 <li>
-                    whatsapp: <a href="#" target="_blank">(xx)xxxxx-xxxx</a>
+                   <h3>Bernardo Ladeira Leal de Medeiros</h3>
                 </li>
 
                 <li>
-                    Email: <a href="#" target="_blank">xxxx@gmail.com</a>
+                    <h3>José Simões de Araújo Neto</h3>
                 </li>
+
+                <li>
+                    <h3>Mateus Silva Xavier</h3>
+                 </li>
+
             </ul>
             <div>
                 <button class="footer-buttom"><a href="#" style="text-decoration: none;color: #fff;">Inicio</a></button>
@@ -298,7 +356,7 @@
             2023 SportsBoost CORP.
         </div>
     </footer>
-
+<script src="./assets/js/script.js"></script>
 </body>
 
 </html>
